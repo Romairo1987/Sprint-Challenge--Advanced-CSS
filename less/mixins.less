@@ -1,1 +1,20 @@
 // Mixins Here
+.sign-up(@height, @width, @bg-color, @b-style, @b-radius, @color, @cursor){
+    height: @height;
+    width:@width;
+    background-color:@bg-color;
+    border-style: @b-style;
+    border-radius: @b-radius;
+    color:@color;
+    cursor: @cursor;
+}
+
+.flex-box(@display , @j-content){
+    display: @display;
+    justify-content: @j-content;
+}
+
+.dimensions(@height,@width){
+    height:@height;
+    width:@width;
+}
